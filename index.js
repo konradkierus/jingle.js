@@ -226,6 +226,7 @@ SessionManager.prototype.process = function (req) {
 
     // Extract the request metadata that we need to verify
     var sid = !!req.jingle ? req.jingle.sid : null;
+    var cid = !!req.jingle ? req.jingle.cid : null;
     var session = this.sessions[sid] || null;
     var rid = req.id;
     var sender = req.from.full || req.from;
@@ -369,6 +370,7 @@ SessionManager.prototype.process = function (req) {
 
         session = this._createIncomingSession({
             sid: sid,
+            cid: cid,
             peer: req.from,
             peerID: sender,
             initiator: false,
