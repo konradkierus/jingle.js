@@ -11,8 +11,8 @@
   "dependencies": {
     "extend-object": "^1.0.0",
     "intersect": "^0.1.0",
-    "jingle-media-session": "github:softwarehutpl/jingle-media-session#32bd50e2f024f39846e0a6e26da405a8682f41f7",
-    "jingle-session": "github:softwarehutpl/jingle-session#34681eec88a8d782eaade7810c2e0dc6104c8cfa",
+    "jingle-media-session": "github:softwarehutpl/jingle-media-session#7570ec2151dc680109a8cb478cf1fddf91e786f6",
+    "jingle-session": "github:softwarehutpl/jingle-session#5337a74f73f4d0251747f7db2862e69ce240ad38",
     "wildemitter": "^1.0.1"
   },
   "devDependencies": {
