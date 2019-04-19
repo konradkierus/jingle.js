@@ -1,6 +1,6 @@
 var util = require('util');
 var intersect = require('intersect');
-var WildEmitter = require('wildemitter');
+var WildEmitter = require('@konradkierus/wildemitter');
 
 var BaseSession = require('jingle-session');
 var MediaSession = require('jingle-media-session');
