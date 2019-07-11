@@ -13,7 +13,7 @@
     "intersect": "^0.1.0",
     "jingle-media-session": "github:softwarehutpl",
     "jingle-session": "github:softwarehutpl",
-    "@konradkierus/wildemitter": "^1.0.1"
+    "wildemitter": "^1.0.1"
   },
   "devDependencies": {
     "browserify": "^7.0.2",
