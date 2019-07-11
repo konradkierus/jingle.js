@@ -11,8 +11,8 @@
   "dependencies": {
     "extend-object": "^1.0.0",
     "intersect": "^0.1.0",
-    "jingle-media-session": "github:softwarehutpl/jingle-media-session#a108f683d4b0097f7e348af87708a674c786bdc5",
-    "jingle-session": "github:softwarehutpl/jingle-session#0cd4526879354f7b468e03c142e6e6fed1a7f133",
+    "jingle-media-session": "github:softwarehutpl",
+    "jingle-session": "github:softwarehutpl",
     "@konradkierus/wildemitter": "^1.0.1"
   },
   "devDependencies": {
