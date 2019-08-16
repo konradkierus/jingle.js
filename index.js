@@ -137,10 +137,11 @@ SessionManager.prototype.addSession = function (session) {
     return session;
 };
 
-SessionManager.prototype.createMediaSession = function (peer, sid, stream) {
+SessionManager.prototype.createMediaSession = function (peer, sid, cid, stream) {
     var session = new MediaSession({
         sid: sid,
         peer: peer,
+        cid: cid,
         initiator: true,
         stream: stream,
         parent: this,
