@@ -1,7 +1,7 @@
 {
   "name": "jingle",
   "description": "Generic Jingle via WebRTC session manager.",
-  "version": "3.0.3",
+  "version": "3.0.3-custom",
   "author": "Lance Stout <lance@andyet.net>",
   "bugs": "https://github.com/otalk/jingle.js/issues",
   "contributors": [
@@ -11,7 +11,7 @@
   "dependencies": {
     "extend-object": "^1.0.0",
     "intersect": "^0.1.0",
-    "jingle-media-session": "github:softwarehutpl/jingle-media-session#58ccbb8deb0b696b3b1dea9c27cfd7034d643201",
+    "jingle-media-session": "github:softwarehutpl/jingle-media-session#v2.3.1-custom",
     "jingle-session": "github:softwarehutpl/jingle-session#07f21ff811afaa13f9c7f782b68f0d2c4cbc4e66",
     "wildemitter": "^1.0.1"
   },

@@ -146,7 +146,8 @@ SessionManager.prototype.createMediaSession = function (peer, sid, cid, stream) 
         stream: stream,
         parent: this,
         iceServers: this.iceServers,
-        constraints: this.config.peerConnectionConstraints
+        constraints: this.config.peerConnectionConstraints,
+        bundlePolicy: this.config.bundlePolicy
     });
 
     this.addSession(session);
@@ -379,7 +380,8 @@ SessionManager.prototype.process = function (req) {
             applicationTypes: applicationTypes,
             transportTypes: transportTypes,
             iceServers: this.iceServers,
-            constraints: this.config.peerConnectionConstraints
+            constraints: this.config.peerConnectionConstraints,
+            bundlePolicy: this.config.bundlePolicy
         }, req);
     }
 
